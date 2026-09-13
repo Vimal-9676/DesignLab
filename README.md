@@ -9,8 +9,11 @@
 <br>
 
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Outfit&size=22&duration=2500&pause=1000&color=6C63FF&center=true&vCenter=true&width=900&lines=Practice+Low-Level+Design+Problems;Structured+Submission+%7C+Explainable+Feedback;No+Backend.+No+Login.+Just+Design.;Built+with+React+%26+TypeScript" />
+  <a href="https://your-demo-url.vercel.app/">
+    <img src="https://img.shields.io/badge/🟢%20Live%20Demo-Visit%20DesignLab-6C63FF?style=for-the-badge"/>
+  </a>
 </p>
+
 
 <br>
 
@@ -88,15 +91,38 @@ DesignLab is different:
 
 ### Frontend
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-0EA5E9?style=for-the-badge&logo=tailwind-css&logoColor=white)
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" height="40"/><br/>
+      <sub><b>React</b></sub>
+    </td>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" height="40"/><br/>
+      <sub><b>TypeScript</b></sub>
+    </td>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" width="40" height="40"/><br/>
+      <sub><b>Vite</b></sub>
+    </td>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="40" height="40"/><br/>
+      <sub><b>Tailwind CSS</b></sub>
+    </td>
+    <td align="center" width="90">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitest/vitest-original.svg" width="40" height="40"/><br/>
+      <sub><b>Vitest</b></sub>
+    </td>
+  </tr>
+</table>
+
+</div>
 
 ### Storage & Testing
 
 ![localStorage](https://img.shields.io/badge/localStorage-Browser%20Native-F7931E?style=for-the-badge)
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
 
 </div>
 
