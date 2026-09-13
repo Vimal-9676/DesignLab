@@ -1,11 +1,7 @@
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { Menu, X, FlaskConical, LayoutDashboard } from 'lucide-react'
+import { Menu, X, FlaskConical } from 'lucide-react'
 
-const navLinks = [
-  { to: '/problems', label: 'Problems' },
-  { to: '/history', label: 'History' },
-]
 
 export function Nav() {
   const [open, setOpen] = useState(false)

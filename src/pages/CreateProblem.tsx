@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { Sparkles, Save, ArrowLeft } from 'lucide-react'
+import { Save, ArrowLeft } from 'lucide-react'
 import { ProblemService } from '../services/ProblemService'
-import type { Problem, Difficulty } from '../domain/types'
+
 
 export default function CreateProblem() {
   const navigate = useNavigate()

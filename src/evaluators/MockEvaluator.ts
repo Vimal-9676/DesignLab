@@ -131,7 +131,7 @@ export class MockEvaluator implements Evaluator {
       weaknesses: getUnique(WEAKNESSES, 2),
       suggestions: getUnique(SUGGESTIONS, 3),
       evaluatedAt: new Date().toISOString(),
-      evaluatorType: 'ai-mock',
+      evaluatorType: 'mock',
     }
   }
 }

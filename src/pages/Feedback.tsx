@@ -1,4 +1,4 @@
-import { useParams, Link, useNavigate } from 'react-router-dom'
+import { useParams, Link } from 'react-router-dom'
 import { ArrowLeft, ThumbsUp, AlertCircle, Lightbulb, RotateCcw, Code, BookOpen, CheckCircle2 } from 'lucide-react'
 import { AttemptService } from '../services/AttemptService'
 import { ProblemService } from '../services/ProblemService'
@@ -8,7 +8,6 @@ import { ErrorMessage } from '../components/ErrorMessage'
 
 export default function Feedback() {
   const { attemptId } = useParams<{ attemptId: string }>()
-  const navigate = useNavigate()
 
   const attempt = attemptId ? AttemptService.getById(attemptId) : undefined
   const problem = attempt ? ProblemService.getById(attempt.problemId) : undefined
